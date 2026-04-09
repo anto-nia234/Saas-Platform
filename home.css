@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/*Navigation*/
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #efe7eb;
+    position: sticky;
+    padding: 20px 0;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #6366f1;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link li {
+    padding: 0px 10px;
+
+}
+
+.nav-link li a {
+    color: #1a1a1a;
+    font-weight: 500;
+    transition: color 0.3 ease;
+}
+
+.nav-link li a:hover {
+    color: #6366f1;
+    border-bottom: 2px solid #6366f1;
+    padding-bottom: 5px;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 700px;
+    color: #1a1a1a;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #666666;
+    max-width: 600px;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 14px 32px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-getstarted {
+    background-color: #6366f1;
+    color: #ffffff;
+
+}
+
+.btn-getstarted:hover {
+    background-color: #4f46e5;
+    transform: translateY(-2px);
+}
+
+.btn-learn-more {
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+    border: 2px solid #e5e7eb;
+
+
+}
+
+.btn-learn-more:hover {
+    background-color: #e5e7eb;
+}
